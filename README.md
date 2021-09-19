@@ -15,7 +15,7 @@ Dataset :: [Face Trainset](https://drive.google.com/file/u/2/d/1RJStOSJY4elbOlC3
   * We have to fine tune a pretrained conv model so we can recognize face with a passport size image
 
 ## Approach 1 ([Triplet Loss](TorchFace_Recognition.ipynb "Face Recognition"))
-Tools :: Pytorch, Torchvision, Numpy, Matplotlib, PIL \
+Tools :: **Pytorch**, Torchvision, Numpy, Matplotlib, PIL \
 Architecture :: vgg16 (Pretrained + Fine tuning for face recognition)
 
 
@@ -59,7 +59,7 @@ Architecture :: vgg16 (Pretrained + Fine tuning for face recognition)
 
 ## Approach 2 ([Binary CrossEntropy](TFace_Recognition.ipynb "Face Recognition"))
 
-Tools :: Tensorflow, Keras, Numpy, Matplotlib, PIL \
+Tools :: **Tensorflow**, Keras, Numpy, Matplotlib, PIL \
 Architecture :: inceptionV3 (Pretrained + Fine tuning for face recognition)
 
 InceptionV3: Non Trainable
